@@ -22,7 +22,7 @@ const fechaasi = moment().tz('Asia/Jakarta').format('DD/MM HH:mm')
 const fechabra = moment().tz('America/Sao_Paulo').format('DD/MM HH:mm')
 const fechaafri = moment().tz('Africa/Malabo').format('DD/MM HH:mm')
 await conn.sendMessage(m.chat, { text: `\`\`\`
-「 ZONA-HORARIA ⏰ 」
+「 ЧАСОВОЙ ПОЯС ⏰ 」
 ⏱️Перу       : ${fechaper}
 ⏱️Мексика    : ${fechamex}
 ⏱️Воливия    : ${fechabol}
@@ -32,24 +32,24 @@ await conn.sendMessage(m.chat, { text: `\`\`\`
 ⏱️Эквадор    : ${fechaecu}
 ⏱️Коста-Рика : ${fechacosr}
 ⏱️Куба       : ${fechacub}
-⏱️Guatemala  : ${fechagua}
-⏱️Honduras   : ${fechahon}
-⏱️Nicaragua  : ${fechanic}
-⏱️Panama     : ${fechapan}
-⏱️Uruguay    : ${fechauru}
-⏱️Venezuela  : ${fechaven}
-⏱️Paraguay   : ${fechapar}
-⏱️New York   : ${fechanew}
-⏱️Asia       : ${fechaasi}
-⏱️Brasil     : ${fechabra}
+⏱️Гватемала  : ${fechagua}
+⏱️Гондурас   : ${fechahon}
+⏱️Никарагуа  : ${fechanic}
+⏱️Панама     : ${fechapan}
+⏱️Уругвай    : ${fechauru}
+⏱️Венесуэла  : ${fechaven}
+⏱️Парагвай   : ${fechapar}
+⏱️Нью-Йорк   : ${fechanew}
+⏱️Азия       : ${fechaasi}
+⏱️Бразилия     : ${fechabra}
 ⏱️G.N.Q      : ${fechaafri}
 \`\`\`
 ${String.fromCharCode(8206).repeat(850)}
-Zona horaria del servidor actual:\n[ ${Intl.DateTimeFormat().resolvedOptions().timeZone} ]\n${moment().tz(Intl.DateTimeFormat().resolvedOptions().timeZone).format('DD/MM/YY HH:mm:ss')}` }, {quoted: m })
+Текуший часовой пояс сервера:\n[ ${Intl.DateTimeFormat().resolvedOptions().timeZone} ]\n${moment().tz(Intl.DateTimeFormat().resolvedOptions().timeZone).format('DD/MM/YY HH:mm:ss')}` }, {quoted: m })
 }
 
 handler.help = ['horario']
 handler.tags = ['info']
-handler.command = /^(horario)$/i
+handler.command = /^(часы)$/i
 
 export default handler

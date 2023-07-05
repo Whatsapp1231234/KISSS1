@@ -21,7 +21,7 @@ let speed = neww - old
 let info = `
 ╠═〘 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〙 ═
 ╠
-╠➥ [🤴🏻] 𝙲𝚁𝙴𝙰𝙳𝙾𝚁: *𝙱𝚛𝚞𝚗𝚘 𝚂𝚘𝚋𝚛𝚒𝚗𝚘*
+╠➥ [🤴🏻] СОДАТЕЛИ: *Лёлька Серёга*
 ╠➥ [#️⃣] 𝙽𝚄𝙼𝙴𝚁𝙾: *+52 1 999 209 5479*
 ╠➥ [🎳] 𝙿𝚁𝙴𝙵𝙸𝙹𝙾: *${usedPrefix}*
 ╠➥ [🔐] 𝙲𝙷𝙰𝚃𝚂 𝙿𝚁𝙸𝚅𝙰𝙳𝙾𝚂: *${chats.length - groups.length}*
@@ -48,7 +48,7 @@ conn.relayMessage(m.chat, res.message, {})
 }
 handler.help = ['infobot', 'speed']
 handler.tags = ['info', 'tools']
-handler.command = /^(ping|speed|infobot)$/i
+handler.command = /^(ping|speed|инфобот)$/i
 export default handler
 
 function clockString(ms) {
