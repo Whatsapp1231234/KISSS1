@@ -23,15 +23,15 @@ const fechabra = moment().tz('America/Sao_Paulo').format('DD/MM HH:mm')
 const fechaafri = moment().tz('Africa/Malabo').format('DD/MM HH:mm')
 await conn.sendMessage(m.chat, { text: `\`\`\`
 「 ZONA-HORARIA ⏰ 」
-⏱️Peru       : ${fechaper}
-⏱️Mexico     : ${fechamex}
-⏱️Bolivia    : ${fechabol}
-⏱️Chile      : ${fechachi}
-⏱️Argentina  : ${fechaarg}
-⏱️Colombia   : ${fechacol}
-⏱️Ecuador    : ${fechaecu}
-⏱️Costa_Rica : ${fechacosr}
-⏱️Cuba       : ${fechacub}
+⏱️Перу       : ${fechaper}
+⏱️Мексика    : ${fechamex}
+⏱️Воливия    : ${fechabol}
+⏱️Чили       : ${fechachi}
+⏱️Азгентина  : ${fechaarg}
+⏱️Колумбия   : ${fechacol}
+⏱️Эквадор    : ${fechaecu}
+⏱️Коста-Рика : ${fechacosr}
+⏱️Куба       : ${fechacub}
 ⏱️Guatemala  : ${fechagua}
 ⏱️Honduras   : ${fechahon}
 ⏱️Nicaragua  : ${fechanic}
