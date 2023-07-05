@@ -14,7 +14,7 @@ let json = res[Math.floor(Math.random() * res.length)]
 let caption = `
 ADIVINA EL TITULO DE LA CANCION
 Tiempo ${(timeout / 1000).toFixed(2)} segundos
-Escribe *${usedPrefix}pista* Para obtener una pista
+Escribe *$pista* Para obtener una pista
 Premio: ${poin} XP
 RESPONDE A ESTE MENSAJE CON LAS RESPUESTAS!`.trim()
 conn.tebaklagu[id] = [

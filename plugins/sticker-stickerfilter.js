@@ -7,9 +7,9 @@ let handler = async (m, { conn, usedPrefix, text }) => {
 let effect = text.trim().toLowerCase()
 if (!effects.includes(effect)) throw `
 *_✳️ USO CORRECTO DEL COMANDO ✳️_*
-*👉 Use:* ${usedPrefix}stickerfilter (efecto) 
+*👉 Use:* $stickerfilter (efecto) 
 - Y responda a una imagen
-*✅ Ejemplo:* ${usedPrefix}stickerfilter greyscale
+*✅ Ejemplo:* $stickerfilter greyscale
 *Lista de efectos:*
 ${effects.map(effect => `_> ${effect}_`).join('\n')}
 `.trim()
