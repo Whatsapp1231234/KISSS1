@@ -9,6 +9,6 @@ process.send('reset')
 }
 handler.help = ['перезагрузка']
 handler.tags = ['owner']
-handler.command = ['restart','reiniciar'] 
+handler.command = ['перезагрузка','reiniciar'] 
 handler.rowner = true
 export default handler
