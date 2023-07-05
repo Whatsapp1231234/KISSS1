@@ -9,7 +9,7 @@ import moment from 'moment-timezone'
 
 global.owner = [
   ['79531126750', '👑 Mystic - Creador 👑', true],
-  ['79531126750', '💫 Mystic - Collaborator 1 💫', true],
+  ['77072763560', '💫 Mystic - Collaborator 1 💫', true],
   ['79531126750', '💫 Mystic - Collaborator 2 💫', true],
 ] 
 
