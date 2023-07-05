@@ -52,7 +52,15 @@ cd && termux-setup-storage
 ```
 
 ```bash
-apt-get update -y && apt-get upgrade(https://github.com/Whatsapp1231234/KISSS1/tree/master).git && cd Mystic-termux
+apt-get update -y && apt-get upgrade -y
+```
+
+```bash
+pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
+```
+
+```bash
+git clone https://github.com/Whatsapp1231234/KISSS1.git && cd KISSS1
 ```
 
 ```bash
