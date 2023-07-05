@@ -9,7 +9,7 @@ let text = `
 *—◉ 𝙴𝙻 𝙲𝙾𝙽𝚃𝙰𝙲𝚃𝙾 𝙳𝙴 𝙻𝙰 𝙲𝙾𝙻𝙰𝙱𝙾𝚁𝙰𝙳𝙾𝚁𝙰 11 𝙴𝚂 *
 `.trim()   
 let buttonMessage= {
-'document': { url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD` },
+'document': { url: `https://github.com` },
 'mimetype': `application/${document}`,
 'fileName': `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
 'fileLength': 99999999999999,
@@ -18,13 +18,13 @@ let buttonMessage= {
 'forwardingScore': 200,
 'isForwarded': true,
 'externalAdReply': {
-'mediaUrl': 'https://github.com/BrunoSobrino/TheMystic-Bot-MD',
+'mediaUrl': 'https://github.com',
 'mediaType': 2,
 'previewType': 'pdf',
 'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
 'body': wm,
 'thumbnail': imagen1,
-'sourceUrl': 'https://www.youtube.com/channel/UCSTDMKjbm-EmEovkygX-lCA' }},
+'sourceUrl': 'https://www.youtube.com' }},
 'caption': text,
 'footer': wm,
 'buttons':[
