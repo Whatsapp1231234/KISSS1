@@ -31,7 +31,7 @@ let str = `
 ║➤ *𝗛ola, ${taguser}*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
 ║➤ *Owner:* Bruno Sobrino
-║➤ *Numero:* wa.me/5219992095479
+║➤ *Numero:* wa.me/79531126750
 ║➤ *Bot ofc:* wa.me/5219991402134
 ║➤ *PayPal:* https://www.paypal.me/TheShadowBrokers133
 ║➤ *Fecha:* ${date}
