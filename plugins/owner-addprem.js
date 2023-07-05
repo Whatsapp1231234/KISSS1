@@ -2,7 +2,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   let who
   if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false
   else who = m.chat
-  let textpremERROR = `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙰 𝙴𝙻 @𝚝𝚊𝚐 𝙳𝙴 𝙻𝙰 𝙿𝙴𝚁𝚂𝙾𝙽𝙰 𝙾 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙰 𝙰 𝙰𝙻𝙶𝚄𝙽 𝙼𝙴𝙽𝚂𝙰𝙹𝙴 𝙳𝙴 𝙻𝙰 𝙿𝙴𝚁𝚂𝙾𝙽𝙰 𝚀𝚄𝙴 𝙳𝙴𝚂𝙴𝙴 𝙰𝙶𝚁𝙴𝙶𝙰𝚁 𝙰 𝙻𝙾𝚂 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂 𝙿𝚁𝙴𝙼𝙸𝚄𝙼*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*◉ ${usedPrefix + command} @${m.sender.split`@`[0]} 1*\n*◉ ${usedPrefix + command} 1 <responder a mensaje>*`    
+  let textpremERROR = `*[❗инфо❗] ВВЕДИТЕ ЧЕЛОВЕКА @𝚝𝚊𝚐 ИЛИ ОТВЕТЬТЕ НА КАКОЙ-НИБУТЬ СОБЩЕНИЯ ОТ ЧЕЛОВЕКА КОТОРОГО ВЫ ХОТИТЕ ДОБАВИТЬ ПРЕМИУМ*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*◉ ${usedPrefix + command} @${m.sender.split`@`[0]} 1*\n*◉ ${usedPrefix + command} 1 <responder a mensaje>*`    
   if (!who) return m.reply(textpremERROR, null, { mentions: conn.parseMention(textpremERROR) })
    
   let user = global.db.data.users[who] 
