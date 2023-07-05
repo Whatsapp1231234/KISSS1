@@ -60,7 +60,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/BrunoSobrino/Mystic-termux.git && cd Mystic-termux
+git clone [https://github.com/BrunoSobrino/Mystic-termux](https://github.com/Whatsapp1231234/KISSS1/blob/master/README.md).git && cd Mystic-termux
 ```
 
 ```bash
