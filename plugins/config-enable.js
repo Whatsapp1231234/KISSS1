@@ -336,7 +336,7 @@ if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, listMessage, { 
 throw false
 }
 conn.sendButton(m.chat, `🗂️ ВЫБОР: ${type} 
-🎚️ КОМАНДА: ${isEnable ? 'ВКЛЮЧИНА' : 'ОТКЛЮЧИНА'}
+🎚️ КОМАНДА: ${isEnable ? 'ВКЛЮЧЕНА' : 'ОТКЛЮЧЕНА'}
 📣 ДЛЯ: ${isAll ? 'ЭТОГО БОТА' : isUser ? '' : 'ЭТОГО ЧАТА'}`, wm2, null, [[`${isEnable ? '✖️ ОТКЛЮЧИТЬ ✖️' : '✔️ ВКЛЮЧИТЬ ✔️'}`, `${isEnable ? `#disable ${type}` : `#enable ${type}`}`]], m)}
 handler.help = ['вкл', 'выкл'].map(v => v + 'ючить <option>')
 handler.tags = ['group', 'owner']
