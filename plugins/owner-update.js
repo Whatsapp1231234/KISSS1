@@ -8,7 +8,7 @@ conn.reply(m.chat, stdout.toString(), m)}
 var update = execSync('git remote set-url origin https://github.com/BrunoSobrino/TheMystic-Bot-MD.git && git pull')
 await m.reply(update.toString())
 }}
-handler.help = ['update']
+handler.help = ['обновить']
 handler.tags = ['owner']
 handler.command = /^update|actualizar$/i
 handler.rowner = true
