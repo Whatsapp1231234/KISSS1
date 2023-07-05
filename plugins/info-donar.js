@@ -13,18 +13,10 @@ let donar =`
 ║➤ *Owner:* Bruno Sobrino
 ║➤ *Numero:* wa.me/5219992095479
 ║➤ *Bot ofc:* wa.me/5219991402134
-║➤ *PayPal:* https://www.paypal.me/TheShadowBrokers133
 ║➤ *Fecha:* ${date}
 ║➤ *Tiempo activo:* $
 ║➤ *Usuarios:* $
 ╰═══╡✯✯✯✯✯✯✯✯✯╞═══╯
-
-${readMore}
-┏━━━━━━━━━━━━━━━━┓
-┃ *< 𝔹𝕆𝕋 𝕆𝔽ℂ 𝕆 𝕊𝕌𝔹 𝔹𝕆𝕋 />*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ${(conn.user.jid == global.conn.user.jid ? '' : `Jadibot de: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '*Este es el Bot oficial*'}
-┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
 ┃ *< 𝕀ℕ𝔽𝕆 𝔹𝕆𝕋 />*
