@@ -307,7 +307,7 @@ throw false
 }
 bot.modejadibot = isEnable
 break        
-case 'антитоксичный':
+case 'антитоксичный':   
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
