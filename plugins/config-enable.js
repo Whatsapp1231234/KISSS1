@@ -337,7 +337,7 @@ throw false
 }
 conn.sendButton(m.chat, `🗂️ ВЫБОР: ${type} 
 🎚️ КОМАНДА: ${isEnable ? 'ВКЛЮЧЕНА' : 'ОТКЛЮЧЕНА'}
-📣 ДЛЯ: ${isAll ? 'ЭТОГО БОТА' : isUser ? '' : 'ЭТОГО ЧАТА'}`, wm2, null, [], m)}
+📣 ДЛЯ: ${isAll ? 'ЭТОГО БОТА' : isUser ? '' : 'ЭТОГО ЧАТА'}`, wm2, null, m)}
 handler.help = ['вкл', 'выкл'].map(v => v + 'ючить <option>')
 handler.tags = ['group', 'owner']
 handler.command = /^((вк|вык)лючить|(tru|fals)e|(turn)?[01])$/i
