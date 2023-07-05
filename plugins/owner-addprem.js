@@ -25,7 +25,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     else user.premiumTime = now + hora1
     user.premium = true
     let timeLeft = (user.premiumTime - now) / 1000 // tiempo restante en segundos
-    let textprem1 = `*🎟️ 𝙽𝚄𝙴𝚅𝙾 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙿𝚁𝙴𝙼𝙸𝚄𝙼!!!*\n\n*✨ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾: ${name}*\n*🕐 𝚃𝙸𝙴𝙼𝙿𝙾: ${txt} hora(s)*\n*📉 𝚁𝙴𝚂𝚃𝙰𝙽𝚃𝙴: ${timeLeft} segundos*`
+    let textprem1 = `*🎟️ У ВАС НЕТ ОГРАНИЧЕНИЙ!!!*\n\n*✨ РАЗГОВОР: ${name}*\n*🕐 Недвижимость: ${txt} hora(s)*\n*📉 ОБНОВЛЕНИЕ: ${timeLeft} segundos*`
     m.reply(textprem1, null, { mentions: conn.parseMention(textprem1) })}
     
   if (command == 'датьпрем2' || command == 'userpremium2') {
@@ -33,7 +33,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     else user.premiumTime = now + dia1
     user.premium = true
     let timeLeft = (user.premiumTime - now) / 1000 / 60 / 60 // tiempo restante en horas
-    let textprem2 = `*🎟️ 𝙽𝚄𝙴𝚅𝙾 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙿𝚁𝙴𝙼𝙸𝚄𝙼!!!*\n\n*✨ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾: ${name}*\n*🕐 𝚃𝙸𝙴𝙼𝙿𝙾: ${txt} día(s)*\n*📉 𝚁𝙴𝚂𝚃𝙰𝙽𝚃𝙴: ${timeLeft} horas*`
+    let textprem2 = `*🎟️ У ВАС НЕТ ОГРАНИЧЕНИЙ!!!*\n\n*✨ РАЗГОВОР: ${name}*\n*🕐 Недвижимость: ${txt} día(s)*\n*📉 ОБНОВЛЕНИЕ: ${timeLeft} horas*`
     m.reply(textprem2, null, { mentions: conn.parseMention(textprem2) })}
   
   if (command == 'датьпрем3' || command == 'userpremium3') {
@@ -41,7 +41,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     else user.premiumTime = now + semana1
     user.premium = true
   formatTime(user.premiumTime - now).then(timeleft => {
-    let textprem3 = `*🎟️ 𝙽𝚄𝙴𝚅𝙾 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙿𝚁𝙴𝙼𝙸𝚄𝙼!!!*\n\n*✨ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾: ${name}*\n*🕐 𝚃𝙸𝙴𝙼𝙿𝙾: ${txt} semana(s)*\n*📉 𝚁𝙴𝚂𝚃𝙰𝙽𝚃𝙴: ${timeleft}*`
+    let textprem3 = `*🎟️ У ВАС НЕТ ОГРАНИЧЕНИЙ!!!*\n\n*✨ РАЗГОВОР: ${name}*\n*🕐 Недвижимость: ${txt} semana(s)*\n*📉 ОБНОВЛЕНИЕ: ${timeleft}*`
     m.reply(textprem3, null, { mentions: conn.parseMention(textprem3) })})}
   
   if (command == 'датьпрем4' || command == 'userpremium4') {
@@ -49,7 +49,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     else user.premiumTime = now + mes1
     user.premium = true
   formatTime(user.premiumTime - now).then(timeleft => {
-    let textprem4 = `*🎟️ 𝙽𝚄𝙴𝚅𝙾 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙿𝚁𝙴𝙼𝙸𝚄𝙼!!!*\n\n*✨ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾: ${name}*\n*🕐 𝚃𝙸𝙴𝙼𝙿𝙾: ${txt} mes(es)*\n*📉 𝚁𝙴𝚂𝚃𝙰𝙽𝚃𝙴: ${timeleft}*`
+    let textprem4 = `*🎟️ У ВАС НЕТ ОГРАНИЧЕНИЙ!!!*\n\n*✨ РАЗГОВОР: ${name}*\n*🕐 Недвижимость: ${txt} mes(es)*\n*📉 ОБНОВЛЕНИЕ: ${timeleft}*`
     m.reply(textprem4, null, { mentions: conn.parseMention(textprem4) })})}
 }
 handler.help = ['addprem [@user] <days>']
