@@ -16,5 +16,5 @@ else throw json
 }
 handler.help = ['covid'].map(v => v + ' <país>')
 handler.tags = ['info']
-handler.command = /^(ковид|covid|covid19)$/i
+handler.command = /^(corona|covid|covid19)$/i
 export default handler

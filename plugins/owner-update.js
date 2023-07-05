@@ -8,7 +8,7 @@ conn.reply(m.chat, stdout.toString(), m)}
 var update = execSync('git remote set-url origin https://github.com/Whatsapp1231234/KISSS1.git && git pull')
 await m.reply(update.toString())
 }}
-handler.help = ['обновить']
+handler.help = ['update']
 handler.tags = ['owner']
 handler.command = /^обновить|actualizar$/i
 handler.rowner = true

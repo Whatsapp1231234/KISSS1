@@ -32,13 +32,13 @@ let vn = './media/Banate.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(люблю|Люблю)/gi)) {    
-let vn = './media/люблю.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(baneado|Baneado)/gi)) {    
+let vn = './media/baneado.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}   
    
-if (!chat.isBanned && chat.audios && m.text.match(/(привет|Привет)/gi)) {    
-let vn = './media/привет.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(bebito fiu fiu|bff|Bebito Fiu Fiu|Bff)/gi)) {    
+let vn = './media/bff.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}
     

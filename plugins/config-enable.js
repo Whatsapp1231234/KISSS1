@@ -3,11 +3,11 @@ const sections = [
 {
 title: `𝐋𝐈𝐒𝐓𝐀 𝐃𝐄 𝐎𝐏𝐂𝐈𝐎𝐍𝐄𝐒`,
 rows: [
-{title: "✨ | 𝚆𝙴𝙻𝙲𝙾𝙼𝙴", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙰 𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙰 𝙴𝙽 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾", rowId: `${usedPrefix + command} приветствие`},
+{title: "✨ | 𝚆𝙴𝙻𝙲𝙾𝙼𝙴", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙰 𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙰 𝙴𝙽 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾", rowId: `${usedPrefix + command} welcome`},
 {title: "🌎 | 𝙼𝙾𝙳𝙾 𝙿𝚄𝙱𝙻𝙸𝙲𝙾", description: "𝙴𝙻 𝙱𝙾𝚃 𝚂𝙴 𝚅𝚄𝙴𝙻𝚅𝙴 𝙳𝙴 𝚄𝚂𝙾 𝙿𝚄𝙱𝙻𝙸𝙲𝙾 𝚈/𝙾 𝙿𝚁𝙸𝚅𝙰𝙳𝙾", rowId: `${usedPrefix + command} public`},
 {title: "🥵 | 𝙼𝙾𝙳𝙾 𝙷𝙾𝚁𝙽𝚈", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 +𝟷𝟾", rowId: `${usedPrefix + command} modohorny`},
-{title: "🔗 | 𝙰𝙽𝚃𝙸𝙻𝙸𝙽𝙺", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝙴𝙽𝙻𝙰𝙲𝙴𝚂 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂 𝙳𝙴 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿", rowId: `${usedPrefix + command} антиссылка`},   
-{title: "🔗 | 𝙰𝙽𝚃𝙸𝙻𝙸𝙽𝙺 𝟸", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝙴𝙽𝙻𝙰𝙲𝙴𝚂 𝚀𝚄𝙴 𝙸𝙽𝙸𝙲𝙸𝙰𝙽 𝙴𝙽 𝙷𝚃𝚃𝙿𝚂", rowId: `${usedPrefix + command} антиссылка2`},    
+{title: "🔗 | 𝙰𝙽𝚃𝙸𝙻𝙸𝙽𝙺", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝙴𝙽𝙻𝙰𝙲𝙴𝚂 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂 𝙳𝙴 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿", rowId: `${usedPrefix + command} antilink`},   
+{title: "🔗 | 𝙰𝙽𝚃𝙸𝙻𝙸𝙽𝙺 𝟸", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝙴𝙽𝙻𝙰𝙲𝙴𝚂 𝚀𝚄𝙴 𝙸𝙽𝙸𝙲𝙸𝙰𝙽 𝙴𝙽 𝙷𝚃𝚃𝙿𝚂", rowId: `${usedPrefix + command} antilink2`},    
 {title: "🔎 | 𝙳𝙴𝚃𝙴𝙲𝚃", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙰𝚂 𝙽𝙾𝚃𝙸𝙵𝙸𝙲𝙰𝙲𝙸𝙾𝙽𝙴𝚂 𝙳𝙴 𝙽𝚄𝙴𝚅𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙲𝙸𝙾𝙽 𝙴𝙽 𝚄𝙽 𝙶𝚁𝚄𝙿𝙾", rowId: `${usedPrefix + command} detect`},      
 {title: "❗ | 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙰𝚂 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝙲𝙸𝙾𝙽𝙴𝚂 𝙿𝙰𝚁𝙰 𝚂𝙰𝙲𝙰𝚁 𝙶𝙴𝙽𝚃𝙴 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂", rowId: `${usedPrefix + command} restrict`},    
 {title: "☑️ | 𝙰𝚄𝚃𝙾𝚁𝙴𝙰𝙳", description: "𝙼𝙰𝚁𝙲𝙰 𝙰𝚄𝚃𝙾𝙼𝙰𝚃𝙸𝙲𝙰𝙼𝙴𝙽𝚃𝙴 𝙻𝙰𝚂 𝙲𝙾𝙽𝚅𝙴𝚁𝚂𝙰𝙲𝙸𝙾𝙽𝙴𝚂 𝙲𝙾𝙼𝙾 𝙻𝙴𝙸𝙳𝙾", rowId: `${usedPrefix + command} autoread`},
@@ -28,11 +28,11 @@ rows: [
 {
 title: `𝐋𝐈𝐒𝐓𝐀 𝐃𝐄 𝐎𝐏𝐂𝐈𝐎𝐍𝐄𝐒`,
 rows: [
-{title: "✨ | 𝚆𝙴𝙻𝙲𝙾𝙼𝙴", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙰 𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙰 𝙴𝙽 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾", rowId: `${usedPrefix + command} приветствие`},
+{title: "✨ | 𝚆𝙴𝙻𝙲𝙾𝙼𝙴", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙰 𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙰 𝙴𝙽 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾", rowId: `${usedPrefix + command} welcome`},
 {title: "🌎 | 𝙼𝙾𝙳𝙾 𝙿𝚄𝙱𝙻𝙸𝙲𝙾", description: "𝙴𝙻 𝙱𝙾𝚃 𝚂𝙴 𝚅𝚄𝙴𝙻𝚅𝙴 𝙳𝙴 𝚄𝚂𝙾 𝙿𝚄𝙱𝙻𝙸𝙲𝙾 𝚈/𝙾 𝙿𝚁𝙸𝚅𝙰𝙳𝙾", rowId: `${usedPrefix + command} public`},
 {title: "🥵 | 𝙼𝙾𝙳𝙾 𝙷𝙾𝚁𝙽𝚈", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 +𝟷𝟾", rowId: `${usedPrefix + command} modohorny`},
-{title: "🔗 | 𝙰𝙽𝚃𝙸𝙻𝙸𝙽𝙺", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝙴𝙽𝙻𝙰𝙲𝙴𝚂 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂 𝙳𝙴 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿", rowId: `${usedPrefix + command} антиссылка`},   
-{title: "🔗 | 𝙰𝙽𝚃𝙸𝙻𝙸𝙽𝙺 𝟸", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝙴𝙽𝙻𝙰𝙲𝙴𝚂 𝚀𝚄𝙴 𝙸𝙽𝙸𝙲𝙸𝙰𝙽 𝙴𝙽 𝙷𝚃𝚃𝙿𝚂", rowId: `${usedPrefix + command} антиссылка2`},    
+{title: "🔗 | 𝙰𝙽𝚃𝙸𝙻𝙸𝙽𝙺", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝙴𝙽𝙻𝙰𝙲𝙴𝚂 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂 𝙳𝙴 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿", rowId: `${usedPrefix + command} antilink`},   
+{title: "🔗 | 𝙰𝙽𝚃𝙸𝙻𝙸𝙽𝙺 𝟸", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝙴𝙽𝙻𝙰𝙲𝙴𝚂 𝚀𝚄𝙴 𝙸𝙽𝙸𝙲𝙸𝙰𝙽 𝙴𝙽 𝙷𝚃𝚃𝙿𝚂", rowId: `${usedPrefix + command} antilink2`},    
 {title: "🔎 | 𝙳𝙴𝚃𝙴𝙲𝚃", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙰𝚂 𝙽𝙾𝚃𝙸𝙵𝙸𝙲𝙰𝙲𝙸𝙾𝙽𝙴𝚂 𝙳𝙴 𝙽𝚄𝙴𝚅𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙲𝙸𝙾𝙽 𝙴𝙽 𝚄𝙽 𝙶𝚁𝚄𝙿𝙾", rowId: `${usedPrefix + command} detect`},      
 {title: "❗ | 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙰𝚂 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝙲𝙸𝙾𝙽𝙴𝚂 𝙿𝙰𝚁𝙰 𝚂𝙰𝙲𝙰𝚁 𝙶𝙴𝙽𝚃𝙴 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂", rowId: `${usedPrefix + command} restrict`},    
 {title: "☑️ | 𝙰𝚄𝚃𝙾𝚁𝙴𝙰𝙳", description: "𝙼𝙰𝚁𝙲𝙰 𝙰𝚄𝚃𝙾𝙼𝙰𝚃𝙸𝙲𝙰𝙼𝙴𝙽𝚃𝙴 𝙻𝙰𝚂 𝙲𝙾𝙽𝚅𝙴𝚁𝚂𝙰𝙲𝙸𝙾𝙽𝙴𝚂 𝙲𝙾𝙼𝙾 𝙻𝙴𝙸𝙳𝙾", rowId: `${usedPrefix + command} autoread`},
@@ -56,62 +56,62 @@ rows: [
 const listMessage = {
 text: ' ',
 footer: `┏━━━━━━━━━━━━━┓
-┣ ඬ⃟ℹ️ _$enable *приветствие*_
-┣ ඬ⃟ℹ️ _$disable *приветствие*_
-┣ ඬ⃟ℹ️ _$enable *public*_
-┣ ඬ⃟ℹ️ _$disable *public*_
-┣ ඬ⃟ℹ️ _$enable *modohorny*_
-┣ ඬ⃟ℹ️ _$disable *modohorny*_
-┣ ඬ⃟ℹ️ _$enable *антиссылка*_
-┣ ඬ⃟ℹ️ _$disable *антиссылка*_
-┣ ඬ⃟ℹ️ _$enable *антиссылка2*_
-┣ ඬ⃟ℹ️ _$disable *антиссылка2*_
-┣ ඬ⃟ℹ️ _$enable *detect*_
-┣ ඬ⃟ℹ️ _$disable *detect*_
-┣ ඬ⃟ℹ️ _$enable *restrict*_
-┣ ඬ⃟ℹ️ _$disable *restrict*_
-┣ ඬ⃟ℹ️ _$enable *pconly*_
-┣ ඬ⃟ℹ️ _$disable *pconly*_
-┣ ඬ⃟ℹ️ _$enable *gconly*_
-┣ ඬ⃟ℹ️ _$disable *gconly*_
-┣ ඬ⃟ℹ️ _$enable *autoread*_
-┣ ඬ⃟ℹ️ _$disable *autoread*_
-┣ ඬ⃟ℹ️ _$enable *audios*_
-┣ ඬ⃟ℹ️ _$disable *audios*_
-┣ ඬ⃟ℹ️ _$enable *antiviewonce*_
-┣ ඬ⃟ℹ️ _$disable *antiviewonce*_
-┣ ඬ⃟ℹ️ _$enable *autosticker*_
-┣ ඬ⃟ℹ️ _$disable *autosticker*_
-┣ ඬ⃟ℹ️ _$enable *anticall*_
-┣ ඬ⃟ℹ️ _$disable *anticall*_
-┣ ඬ⃟ℹ️ _$enable *antiprivado*_
-┣ ඬ⃟ℹ️ _$disable *antiprivado*_
-┣ ඬ⃟ℹ️ _$enable *antitoxic*_
-┣ ඬ⃟ℹ️ _$disable *antitoxic*_
-┣ ඬ⃟ℹ️ _$enable *antitraba*_
-┣ ඬ⃟ℹ️ _$disable *antitraba*_
-┣ ඬ⃟ℹ️ _$enable *antiarabes*_
-┣ ඬ⃟ℹ️ _$disable *antiarabes*_
-┣ ඬ⃟ℹ️ _$enable *modejadibot*_
-┣ ඬ⃟ℹ️ _$disable *modejadibot*_
-┣ ඬ⃟ℹ️ _$enable *modoadmin*_
-┣ ඬ⃟ℹ️ _$disable *modoadmin*_
-┣ ඬ⃟ℹ️ _$enable *simsimi*_
-┣ ඬ⃟ℹ️ _$disable *simsimi*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *welcome*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *welcome*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *public*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *public*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *modohorny*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *modohorny*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *antilink*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *antilink*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *antilink2*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *antilink2*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *detect*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *detect*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *restrict*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *restrict*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *pconly*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *pconly*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *gconly*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *gconly*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *autoread*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *autoread*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *audios*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *audios*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *antiviewonce*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *antiviewonce*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *autosticker*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *autosticker*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *anticall*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *anticall*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *antiprivado*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *antiprivado*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *antitoxic*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *antitoxic*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *antitraba*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *antitraba*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *antiarabes*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *antiarabes*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *modejadibot*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *modejadibot*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *modoadmin*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *modoadmin*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *simsimi*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *simsimi*_
 ┗━━━━━━━━━━━━━┛`,
 title: null,
 buttonText: "𝐒𝐄𝐋𝐄𝐂𝐂𝐈𝐎𝐍𝐄 𝐀𝐐𝐔𝐢",
 sections,
 Buttons: true }
 
-let isEnable = /true|включить|(turn)?on|1/i.test(command)
+let isEnable = /true|enable|(turn)?on|1/i.test(command)
 let chat = global.db.data.chats[m.chat]
 let user = global.db.data.users[m.sender]
 let bot = global.db.data.settings[conn.user.jid] || {}
 let type = (args[0] || '').toLowerCase()
 let isAll = false, isUser = false
 switch (type) {
-case 'приветствие':
+case 'welcome':
 if (!m.isGroup) {
 if (!isOwner) {
 global.dfail('group', m, conn)
@@ -175,7 +175,7 @@ throw false
 }
 global.opts['self'] = !isEnable
 break
-case 'антиссылка':
+case 'antilink':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
@@ -183,7 +183,7 @@ throw false
 }}
 chat.antiLink = isEnable
 break
-case 'антиссылка2':
+case 'antilink2':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
@@ -335,10 +335,10 @@ default:
 if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, listMessage, { quoted: m })
 throw false
 }
-conn.sendButton(m.chat, `🗂️ ВЫБОР: ${type} 
-🎚️ КОМАНДА: ${isEnable ? 'ВКЛЮЧИНА' : 'ОТКЛЮЧИНА'}
-📣 ДЛЯ: ${isAll ? 'ЭТОГО БОТА' : isUser ? '' : 'ЭТОГО ЧАТА'}`, wm2, null, [[`${isEnable ? '✖️ ОТКЛЮЧИТЬ ✖️' : '✔️ ВКЛЮЧИТЬ ✔️'}`, `${isEnable ? `#выключить ${type}` : `#включить ${type}`}`]], m)}
-handler.help = ['вкл', 'выкл'].map(v => v + 'ючить <option>')
+conn.sendButton(m.chat, `🗂️ 𝐎𝐏𝐂𝐈𝐎𝐍: ${type} 
+🎚️ 𝐄𝐒𝐓𝐀𝐃𝐎: ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}
+📣 𝐏𝐀𝐑𝐀: ${isAll ? '𝙴𝚂𝚃𝙴 𝙱𝙾𝚃' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'}`, wm2, null, [[`${isEnable ? '✖️ 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝚁 ✖️' : '✔️ 𝙰𝙲𝚃𝙸𝚅𝙰𝚁 ✔️'}`, `${isEnable ? `#disable ${type}` : `#enable ${type}`}`]], m)}
+handler.help = ['en', 'dis'].map(v => v + 'able <option>')
 handler.tags = ['group', 'owner']
-handler.command = /^((вк|вык)лючить|(tru|fals)e|(turn)?[01])$/i
+handler.command = /^((en|dis)able|(tru|fals)e|(turn)?[01])$/i
 export default handler

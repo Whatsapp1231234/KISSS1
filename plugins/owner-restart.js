@@ -7,8 +7,8 @@ await m.reply('🔄 Reiniciando Bot...\n Espere un momento')
 process.send('reset')
 } else throw 'eh'
 }
-handler.help = ['перезагрузка']
+handler.help = ['restart']
 handler.tags = ['owner']
-handler.command = ['перезагрузка','reiniciar'] 
+handler.command = ['restart','reiniciar'] 
 handler.rowner = true
 export default handler
