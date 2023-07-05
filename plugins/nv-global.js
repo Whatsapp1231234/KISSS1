@@ -43,7 +43,7 @@ this.sendPresenceUpdate('recording', m.chat)
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}
     
 if (!chat.isBanned && chat.audios && m.text.match(/(С днём рождения|с днём рождения|С днем рождения|с днем рождения)/gi)) {    
-let vn = './media/с днем рождения.mp3'
+let vn = './media/с днём рождения.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}
     
